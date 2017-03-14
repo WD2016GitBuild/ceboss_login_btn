@@ -1,4 +1,8 @@
-var w = $("#body_login");
+var head = $("head");
+var body = $("body");
+body.append("<div class='w'></div>");
+body.append("<div id='particle-canvas'></div>");
+var w = $(".w");
 var accouts = [];
 accouts.push(["吴东", "cdwudong@300.cn", "cd123456"]);
 accouts.push(["彭雄", "cdpengxiong@300.cn", "asdf123"]);
