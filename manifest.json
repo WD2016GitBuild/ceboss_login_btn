@@ -4,7 +4,7 @@
   "manifest_version": 2,
   "description": "BOSS登录按钮",
   "browser_action": {
-    "default_icon": "icon.png"
+    "default_icon": "img/icon.png"
   },
   "permissions": [
   	"webNavigation",
