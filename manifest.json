@@ -1,0 +1,20 @@
+{
+  "name": "boss登录按钮",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "BOSS登录按钮生成",
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+  	"webNavigation",
+  	"tabs",
+  	"contextMenus"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["http://www.ceboss.cn/*"],
+      "js": ["jquery-1.11.0.min.js", "content_scripts.js"]
+    }
+  ]
+}
