@@ -7,6 +7,7 @@ var accouts = [];
 accouts.push(["吴东", "cdwudong@300.cn", "cd123456"]);
 accouts.push(["彭雄", "cdpengxiong@300.cn", "asdf123"]);
 accouts.push(["陈秋霖", "cdchenqiulin@300.cn", "cd123456"]);
+accouts.push(["荆龙", "cdjinglong@300.cn", "cd123456"]);
 $.each(accouts, function(i, v) {
 	w.append("<div _i='"+i+"' class='w_buttons button button-3d button-primary button-rounded accouts_" + (i+1) + "'>"+accouts[i][0]+"</div>");
 });
